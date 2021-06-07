@@ -1,0 +1,76 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.principal{
+    border: darkblue solid; 
+    box-sizing: border-box;
+    padding-top: 5px;
+    height: 100px;
+    background-color: darkblue;
+    width: 90%;
+    margin: auto;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.navegar{
+    border: crimson solid;
+    max-width: 1000px;
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.navegar:hover{
+    height: 450px;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    background-image: url(img/libro\ abierto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+ul{
+    display: block;
+    float: left;
+    padding-left: 30px;
+   
+}
+
+ul li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 35%;
+    font-size: 20px;
+    
+  
+      
+}
+
+.navegar, ul, li, a{
+    list-style: none;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+li:hover{
+    border: darkblue solid;
+    background-color: mediumblue;
+    border-radius: 8px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+
+
+
